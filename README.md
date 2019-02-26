@@ -17,7 +17,12 @@ Good ground rules:
 3. Avoid innuendo, personal attacks, brutality in review. The code is under a microscope, not the dev. 
 4. Don't be a know it all smarty pants. We are all smart, offer alternative implementations, but assume the author already considered them. 
 5. Accept that many programming decisions are opinions. Discuss tradeoffs,preferences, reach a resolution quickly. Just because this isn't how you would have done it, does NOT mean that it is incorrect. 
-
+6. Important to remember: 
+Code should be...
+-Functional first,
+-Clean and maintainable second, and
+-Optimized third.
+Code should ultimately achieve all three, but the order is important. If the code doesn't work, don't worry about style yet. Similarly, if the code is broken or poorly styled, optimization is only going to make things worse.
 ### Step by Step Process
         
 1. **Fork peer's code from github** (or send manually if necessary)
@@ -46,6 +51,9 @@ DRY (Do not Repeat Yourself) principle: The same code should not be repeated mor
 5. **Code styling,layout,scalability/reusability** Explain why the code exists. ("It's like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?"). Are JS functions scoped, is CSS coherent, are similar values group with enum and consts/config/variables used? Run final linters/automated code tests to find any semantic errors, address them. If there is a reason a standard should NOT be followed, then include in the readme.md why that is the case. Could this code be reused in the future? Could this code be scaled (meaning, more users/server load?). Is this code modern (e.g. using new technologies, new methodologies)? Do you and author know why this methodology might be better than another?)
 
 6. **Maintenance and future-proofing** The child class should not change the behavior (meaning) of the parent class. The child class can be used as a substitute for a base class. See "liskov substitutability"
+
+
+
 ### - Research / Justification
 Are you a boss? Do you have a boss?  This is why code reviews rock. <br/>
 <img src="http://s7d2.scene7.com/is/image/VansBrand/dev-case-study-1?$original-file$" /><br/>
