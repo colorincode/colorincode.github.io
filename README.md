@@ -17,110 +17,47 @@ Have all code meeting 60-80% of (internal) code standards.
 
 ### Step by Step Process
         
-1. **Fork peer's code from github** (or send manually if necessary) - pull requests / commits / branches are a good idea here - but we probably need a system for those. 
-2. **Follow this google form** to go through the code. Good tips: Try not to read through more than 500 lines of code per hour, and try to make sure that you thoroughly review the code. A good code review typically takes at least 1 hour. 
+1. **Fork peer's code from github** (or send manually if necessary)
+2. **Follow this google form** to go through the code. Good tips: Try not to read through more than 500 lines of code per hour, and try to make sure that you thoroughly review the code. A good code review typically takes at least 45m but not more than 90m.
+3. **Branch in github to apply suggested fixes, use a markdown file to make code notes**. either way, make sure the dev author knows WHY you are suggesting changes, and what those changes will fix. Including docs supporting your rationale is a good idea.  Following up in code review meetings, the dev can explain why they did or did not apply the fix. 
 
 ### - Here is what to check, why and examples:
  **For deeper reading into these methods, check the resources section, there are a lot of great links there.**
-1. **Check naming conventions first**. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
+1. **Code format and naming**. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
+Follow this rule: Do not write comments for what you are doing, instead write comments on why you are doing, the code itself should be self explanatory, but comments/docs help. 
 Examples of statement of intent can include:<br/>
 <code>"main--slider--wrapper"</code><br/>
 <code>or "$vansredbtn"</code> <br/>
 <code><!--this is the main wrapper main--slider--wrapper--> </code><br/>
 <code> /* this (function, class, mixin) does x */</code><br/>
 Follow up: Does the code actually do what the statement of intent declares? 
+Format: There shouldn't be a need to scroll horizontally to find (unminified) code. Make sure tabs/spaces are used where appropriate, and used correctly in markdown/pug/yaml/ts files where they matter. 
+DRY (Do not Repeat Yourself) principle: The same code should not be repeated more than twice. Does this code repeat?
 
-2. **Functionality** Does this code have a readme.md? Can this code be broken? If it can, how? Are there systems or scenarios in which this code would not work? What could be added or refactored? Does this code work in the real world? Does this work across all browsers and platforms?
+2. **Functionality** Does this code have a readme.md? Can this code be broken? If it can, how? Are there systems or scenarios in which this code would not work? What could be added or refactored? Does this code work in the real world? Does this work across all browsers and platforms? 
 
 3. **Usability and Interface** For any page inspection, **try to think of different "scenarios"** this code would be useful, or not useful. (From the perspective of a customer that has never used this page, is the design usable? Is it intuitive? Can it be learned quickly?... From the perspective of a shareholder or your boss, does this code drive/encourage the customer to point of sale?) This is important, since the code will be shown to many different people, and we want to make sure it is useful to most. The ten usability heurtistics is an excellent resource(see resources) to check out for user interface design. 
-4. **Security and Vulnerability** This one is fairly self explanatory. This is not an all inclusive list, but a secondary security check to ensure code doesn't expose any easy-to-fix security flaws. Is everything up-to-date that can be within npm/package modules? Can any code be injected/inserted at runtime in the application built? Every single image and piece of media being served over secure connection?
-5. **Code styling,layout,scabalability/reusability** Explain why the code exists. ("It's like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?"). Are JS functions scoped, is CSS coherent? Run final linters/automated code tests to find any semantic errors, address them. If there is a reason a standard should NOT be followed, then include in the readme.md why that is the case. Could this code be reused in the future? Could this code be scaled (meaning, more users/server load?). Is this code modern (e.g. using new technologies, new methodologies)? Do you and author know why this methodology might be better than another?)
+4. **Security and Vulnerability** This one is fairly self explanatory. This is not an all inclusive list, but a secondary security check to ensure code doesn't expose any easy-to-fix security flaws. Is everything up-to-date that can be within npm/package modules? Can any code be injected/inserted at runtime in the application built? Every single image and piece of media being served over secure connection? Is this vulnerable to SQL injections or XSS attacks? (See the cheatsheets below)
 
+5. **Code styling,layout,scalability/reusability** Explain why the code exists. ("It's like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?"). Are JS functions scoped, is CSS coherent, are similar values group with enum and consts/config/variables used? Run final linters/automated code tests to find any semantic errors, address them. If there is a reason a standard should NOT be followed, then include in the readme.md why that is the case. Could this code be reused in the future? Could this code be scaled (meaning, more users/server load?). Is this code modern (e.g. using new technologies, new methodologies)? Do you and author know why this methodology might be better than another?)
+
+6. **Maintenance and future-proofing** The child class should not change the behavior (meaning) of the parent class. The child class can be used as a substitute for a base class. See "liskov substitutability"
 ### - Research / Justification
-
+Are you a boss? Do you have a boss?  This is why code reviews rock. 
 <img src="http://s7d2.scene7.com/is/image/VansBrand/dev-case-study-1?$original-file$" />
-        
-- **HTML Source:**  The generated HTML before your browser makes it pretty.
-- **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
-- **Quick Reference:**  A brief run-down of how to format things usin
+      
+The case study (bad picture i know) highlights why peer/code reviews are very effective. A study by smartbear (hp) found that these reviews can HALF the price of bugs found for the company. In addition, even at a cost of $200-1000 per fix,the overall cost is still cut in half.  
 
 ## Resources
 
-   [BEM](http://getbem.com/introduction/)
-   [OOCSS](http://oocss.org/)
-   [CSI Commenting Showing Intent Standard](https://standards.mousepawmedia.com/csi.html)
-   [The Ten Usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
+   [BEM](http://getbem.com/introduction/) <br/>
+   [OOCSS](http://oocss.org/) <br/>
+   [CSI Commenting Showing Intent Standard](https://standards.mousepawmedia.com/csi.html) <br/>
+   [The Ten Usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) <br/>
+   [Liskov substitutability principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) <br/>     
+   [XSS / cross site scripting attacks cheat sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.md)   <br/>    
+   [SQL Injection hacks](https://www.w3schools.com/sql/sql_injection.asp)<br/>  
 
 
-- **Preview:**  A live display of the generated HTML as it would render in a browser.
-- **HTML Source:**  The generated HTML before your browser makes it pretty.
-- **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
-- **Quick Reference:**  A brief run-down of how to format things usin
-
-# colorincode.github.io
-
-## Peer Reviews
-### child of
-### child of
-### child of 
-## Resources
-    child of
-    ### [1] [Google](http://www.google.com)
-    ### [2] [Google](http://www.google.com)
-
-
-- **Preview:**  A live display of the generated HTML as it would render in a browser.
-- **HTML Source:**  The generated HTML before your browser makes it pretty.
-- **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
-- **Quick Reference:**  A brief run-down of how to format things usin
-
-# colorincode.github.io
-
-## Peer Reviews
-### child of
-### child of
-### child of 
-## Resources
-    child of
-    ### [1] [Google](http://www.google.com)
-    ### [2] [Google](http://www.google.com)
-
-
-- **Preview:**  A live display of the generated HTML as it would render in a browser.
-- **HTML Source:**  The generated HTML before your browser makes it pretty.
-- **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
-- **Quick Reference:**  A brief run-down of how to format things usin
-
-# colorincode.github.io
-
-## Peer Reviews
-### child of
-### child of
-### child of 
-## Resources
-    child of
-    ### [1] [Google](http://www.google.com)
-    ### [2] [Google](http://www.google.com)
-
-
-- **Preview:**  A live display of the generated HTML as it would render in a browser.
-- **HTML Source:**  The generated HTML before your browser makes it pretty.
-- **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
-- **Quick Reference:**  A brief run-down of how to format things usin
-
-# colorincode.github.io
-
-## Peer Reviews
-### child of
-### child of
-### child of 
-## Resources
-    child of
-    ### [1] [Google](http://www.google.com)
-    ### [2] [Google](http://www.google.com)
-
-
-- **Preview:**  A live display of the generated HTML as it would render in a browser.
-- **HTML Source:**  The generated HTML before your browser makes it pretty.
-- **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
-- **Quick Reference:**  A brief run-down of how to format things usin
+# development standards for designers
+# Nick's dev standards
