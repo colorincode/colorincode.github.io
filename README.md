@@ -17,11 +17,11 @@ Good ground rules:
 3. Avoid innuendo, personal attacks, brutality in review. The code is under a microscope, not the dev. 
 4. Don't be a know it all smarty pants. We are all smart, offer alternative implementations, but assume the author already considered them. 
 5. Accept that many programming decisions are opinions. Discuss tradeoffs,preferences, reach a resolution quickly. Just because this isn't how you would have done it, does NOT mean that it is incorrect. 
-6. Important to remember: 
-Code should be...
--Functional first,
--Clean and maintainable second, and
--Optimized third.
+6. Important to remember: <br/>
+Code should be...<br/>
+-Functional first,<br/>
+-Clean and maintainable second, <br/>
+-Optimized third.<br/>
 Code should ultimately achieve all three, but the order is important. If the code doesn't work, don't worry about style yet. Similarly, if the code is broken or poorly styled, optimization is only going to make things worse.
 ### Step by Step Process
         
