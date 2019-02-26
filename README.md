@@ -4,6 +4,10 @@
 ### child of
 ### child of
 ### child of 
+
+### - George Washington
+### - John Adams
+### - Thomas Jefferson
 ## Resources
     child of
     ### [1] [Google](http://www.google.com)
