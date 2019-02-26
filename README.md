@@ -1,7 +1,7 @@
 # vans devs hub
 
 This is intended to be a non judgmental, collaborative tool to help us all code better, learn from mistakes, learn from others, and an overall resources for devs / design to work together to make more happen. This may also help the team identify strengths and weaknesses within so we can improve our workflow.Just look at how happy these people are after implementing a code review process:
-<img src="http://s7d2.scene7.com/is/image/VansBrand/photo%2D1484712401471%2D05c7215830eb?$original%2Dsize%2Dpng$" style="max-width="500px" />
+<img src="https://colorincode.co/wp-content/uploads/2019/02/photo-1484712401471-05c7215830eb.jpeg" style="max-width="500px" />
 
 # Peer Reviews
 
