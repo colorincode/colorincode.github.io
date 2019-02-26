@@ -56,6 +56,7 @@ Follow up: Does the code actually do what the statement of intent declares?
 
    [BEM](http://getbem.com/introduction/)
    [OOCSS](http://oocss.org/)
+   [CSI Commenting Showing Intent Standard](https://standards.mousepawmedia.com/csi.html)
    [The Ten Usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
 
