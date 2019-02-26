@@ -9,9 +9,8 @@
     ### [1] [Google](http://www.google.com)
     ### [2] [Google](http://www.google.com)
 
-<p> top level list </p>
-    child of
-    child of
-    child of
-    child of
-    child of
+
+- **Preview:**  A live display of the generated HTML as it would render in a browser.
+- **HTML Source:**  The generated HTML before your browser makes it pretty.
+- **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
+- **Quick Reference:**  A brief run-down of how to format things usin
