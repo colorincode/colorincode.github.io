@@ -15,9 +15,12 @@ Have all code meeting 60-80% of (internal) code standards.
 1. **Fork peer's code from github** (or send manually if necessary) - pull requests / commits / branches are a good idea here - but we probably need a system for those. 
 2. **Check naming conventions first**. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
 Examples of statement of intent can include:<br/>
-<code>"main--slider--wrapper" or "$vansredbtn" <!--this is the main wrapper main--slider--wrapper--> 
-</code><br/>
+<code>"main--slider--wrapper"</code><br/>
+<code>or "$vansredbtn"</code> <br/>
+<code><!--this is the main wrapper main--slider--wrapper--> </code><br/>
+<code> /* this (function, class, mixin) does x */</code><br/>
  **See "resources" below to check BEM, OOCSS standards.**
+ Follow up: Does the code actually do what the statement of intent declares? 
 
 3. **Follow this main checklist** to go through the code. Good tips: Try not to read through more than 500 lines of code per hour, and try to make sure that you thoroughly review the code. A good code review typically takes at least 1 hour. 
 
