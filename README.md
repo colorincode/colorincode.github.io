@@ -2,9 +2,10 @@
 
 This is intended to be a non judgmental, collaborative tool to help us all code better, learn from mistakes, learn from others, and an overall resources for devs / design to work together to make more happen. This may also help the team identify strengths and weaknesses within so we can improve our workflow.
 
+**Goals**
 While no exact goals have been set, it might be a good idea to set measurable goals:
 Have 100% of team reviewing code.
-Have all code meeting 60-80% of code standards.
+Have all code meeting 60-80% of (internal) code standards.
 
 
 ## Peer Reviews
@@ -33,12 +34,11 @@ Examples of statement of intent can include:<br/>
 ### - Goals and Anti Goals
 
 - **Main Goals**  
-        [1] To break good code, and make it better.
-        [2] Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
-        [3] Avoid innuendo, personal attacks, brutality in review. The code is under a microscope, not the dev. 
-        [4] Don't be a know it all smarty pants. 
-        We are all smart, offer alternative implementations, but assume the author already considered them. 
-        [5] Accept that many programming decisions are opinions. Discuss tradeoffs,preferences, reach a resolution quickly.
+1. To break good code, and make it better.
+2. Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
+3. Avoid innuendo, personal attacks, brutality in review. The code is under a microscope, not the dev. 
+4. Don't be a know it all smarty pants. We are all smart, offer alternative implementations, but assume the author already considered them. 
+5. Accept that many programming decisions are opinions. Discuss tradeoffs,preferences, reach a resolution quickly. Just because this isn't how you would have done it, does NOT mean that it is incorrect. 
 
         
 - **HTML Source:**  The generated HTML before your browser makes it pretty.
