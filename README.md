@@ -4,11 +4,11 @@
 
 ### Step by Step Process
         
-- [1] Fork peer's code from github (or send manually if necessary)
-- [2] Check naming conventions first. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
+1. **Fork peer's code from github** (or send manually if necessary)
+2. **Check naming conventions first**. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
 Examples of statement of intent can include:
-    [ "main--slider--wrapper" or "$vansredbtn" ...e.g. anything that gives the reviewer an idea of what it does? **See resources below to check BEM, OOCSS standards.
-- [3] 
+        [ "main--slider--wrapper" or "$vansredbtn" ...e.g. anything that gives the reviewer an idea of what it does? **See resources below to check BEM, OOCSS standards.
+3. 
 
 ### - The main checklist
 
