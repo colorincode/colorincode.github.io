@@ -12,10 +12,10 @@ Have all code meeting 60-80% of (internal) code standards.
 
 ### Step by Step Process
         
-1. **Fork peer's code from github** (or send manually if necessary)
+1. **Fork peer's code from github** (or send manually if necessary) - pull requests / commits / branches are a good idea here - but we probably need a system for those. 
 2. **Check naming conventions first**. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
 Examples of statement of intent can include:<br/>
-<code>"main--slider--wrapper" or "$vansredbtn" (e.g. anything that gives the reviewer an idea of what it does)
+<code>"main--slider--wrapper" or "$vansredbtn" <!--this is the main wrapper main--slider--wrapper--> 
 </code><br/>
  **See "resources" below to check BEM, OOCSS standards.**
 
