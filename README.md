@@ -24,7 +24,8 @@ Good ground rules:
 2. **Follow this google form** to go through the code. Good tips: Try not to read through more than 500 lines of code per hour, and try to make sure that you thoroughly review the code. A good code review typically takes at least 45m but not more than 90m. **[form is here](https://docs.google.com/forms/d/e/1FAIpQLSeEKFat9BrGzmBzKyPVHqQZ4czkA2hog4O1CY-EtACLm9RKrQ/viewform?usp=pp_url)** 
 3. **Branch in github to apply suggested fixes, use a markdown file to make code notes**. either way, make sure the dev author knows WHY you are suggesting changes, and what those changes will fix. Including docs supporting your rationale is a good idea.  Following up in code review meetings, the dev can explain why they did or did not apply the fix. 
 
-### - Here is what to check, why and examples:
+### Here is an in depth checklist with examples. 
+
  **For deeper reading into these methods, check the resources section, there are a lot of great links there.**<br/>
 1. **Code format and naming**. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
 Follow this rule: Do not write comments for what you are doing, instead write comments on why you are doing, the code itself should be self explanatory, but comments/docs help. 
@@ -46,8 +47,8 @@ DRY (Do not Repeat Yourself) principle: The same code should not be repeated mor
 
 6. **Maintenance and future-proofing** The child class should not change the behavior (meaning) of the parent class. The child class can be used as a substitute for a base class. See "liskov substitutability"
 ### - Research / Justification
-Are you a boss? Do you have a boss?  This is why code reviews rock. 
-<img src="http://s7d2.scene7.com/is/image/VansBrand/dev-case-study-1?$original-file$" />
+Are you a boss? Do you have a boss?  This is why code reviews rock. <br/>
+<img src="http://s7d2.scene7.com/is/image/VansBrand/dev-case-study-1?$original-file$" /><br/>
       
 The case study (bad picture i know) highlights why peer/code reviews are very effective. A study by smartbear (hp) found that these reviews can HALF the price of bugs found for the company. In addition, even at a cost of $200-1000 per fix,the overall cost is still cut in half.  
 
