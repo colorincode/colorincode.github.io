@@ -1,5 +1,7 @@
 # vans devs hub
 
+This is intended to be a non judgmental, collaborative tool to help us all code better, learn from mistakes, learn from others, and an overall resources for devs / design to work together to make more happen. 
+
 ## Peer Reviews
 
 ### Step by Step Process
@@ -7,10 +9,10 @@
 1. **Fork peer's code from github** (or send manually if necessary)
 2. **Check naming conventions first**. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
 Examples of statement of intent can include:<br/>
-<code>"main--slider--wrapper" or "$vansredbtn" ...e.g. anything that gives the reviewer an idea of what it does
+<code>"main--slider--wrapper" or "$vansredbtn" (e.g. anything that gives the reviewer an idea of what it does)
 </code>
- **See resources below to check BEM, OOCSS standards.
-3. 
+ **See resources below to check BEM, OOCSS standards.**
+ 3. Follow this main checklist to go through the code. Try not to read through more than 500 lines of code, and try to make sure that you thoroughly review the code. A good code review typically takes at least 1 hour. 
 
 ### - The main checklist
 
