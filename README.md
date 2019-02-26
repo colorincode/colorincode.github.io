@@ -25,7 +25,7 @@ Good ground rules:
 3. **Branch in github to apply suggested fixes, use a markdown file to make code notes**. either way, make sure the dev author knows WHY you are suggesting changes, and what those changes will fix. Including docs supporting your rationale is a good idea.  Following up in code review meetings, the dev can explain why they did or did not apply the fix. 
 
 ### - Here is what to check, why and examples:
- **For deeper reading into these methods, check the resources section, there are a lot of great links there.**
+ **For deeper reading into these methods, check the resources section, there are a lot of great links there.**<br/>
 1. **Code format and naming**. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) 
 Follow this rule: Do not write comments for what you are doing, instead write comments on why you are doing, the code itself should be self explanatory, but comments/docs help. 
 Examples of statement of intent can include:<br/>
