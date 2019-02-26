@@ -73,3 +73,4 @@ The case study (bad picture i know) highlights why peer/code reviews are very ef
 
 # development standards for designers
 # Nick's dev standards
+# By the way, you can edit this website! Just edit the markdown file in the master branch. Please do so with caution, and use proper markdown. 
