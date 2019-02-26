@@ -2,13 +2,15 @@
 
 This is intended to be a non judgmental, collaborative tool to help us all code better, learn from mistakes, learn from others, and an overall resources for devs / design to work together to make more happen. This may also help the team identify strengths and weaknesses within so we can improve our workflow.
 
+# Peer Reviews
+
 ### - Goals and Anti Goals
 
 While no exact goals have been set, it might be a good idea to set measurable goals:
 Have 100% of team reviewing code.
 Have all code meeting 60-80% of (internal) code standards.
 
-- **Main individual and team goals**  
+Good ground rules:
 1. To break good code, and make it better.
 2. Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
 3. Avoid innuendo, personal attacks, brutality in review. The code is under a microscope, not the dev. 
@@ -28,7 +30,7 @@ Follow this rule: Do not write comments for what you are doing, instead write co
 Examples of statement of intent can include:<br/>
 <code>"main--slider--wrapper"</code><br/>
 <code>or "$vansredbtn"</code> <br/>
-<code><!--this is the main wrapper main--slider--wrapper--> </code><br/>
+<code>/<!--this is the main wrapper main--slider--wrapper-->/ </code><br/>
 <code> /* this (function, class, mixin) does x */</code><br/>
 Follow up: Does the code actually do what the statement of intent declares? 
 Format: There shouldn't be a need to scroll horizontally to find (unminified) code. Make sure tabs/spaces are used where appropriate, and used correctly in markdown/pug/yaml/ts files where they matter. 
