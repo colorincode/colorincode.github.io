@@ -3,8 +3,11 @@
 ## Peer Reviews
 
 ### Step by Step Process
+        (before peer review remember to lint, minify, etc)
 
-        [1] To break good code, and make it better.
+        [1] Fork peer's code from github (or send manually if necessary)
+        [2] Check naming conventions first. Does the naming of variables follow common sense logic? Does CSS follow a BEM standard? Does the variable or class name state intent (either in comments or in the name itself?) Examples of statement of intent can include "main--slider--wrapper" or "$vansredbtn" ...e.g. anything that gives the reviewer an idea of what it does? **See resources below to check BEM, OOCSS standards.
+        [3] 
 
 ### - The main checklist
 
@@ -29,9 +32,9 @@
 - **Quick Reference:**  A brief run-down of how to format things usin
 
 ## Resources
-    child of
-    ### [1] [Google](http://www.google.com)
-    ### [2] [Google](http://www.google.com)
+
+   [BEM](http://getbem.com/introduction/)
+   [OOCSS](http://oocss.org/)
 
 
 - **Preview:**  A live display of the generated HTML as it would render in a browser.
