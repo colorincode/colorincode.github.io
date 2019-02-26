@@ -1,9 +1,8 @@
 # colorincode.github.io
-# read me seymour!
-## this is a test
-### second test
-#### third test
 
-# oh no
-## submenu
-### or not submenu
+## Peer Reviews
+
+## Resources
+[1] [Google](http://www.google.com)
+[2] [Google](http://www.google.com)
+
