@@ -12,7 +12,7 @@ Have 100% of team reviewing code.
 Have all code meeting 60-80% of (internal) code standards.
 
 Good ground rules:
-1. To break good code, and make it better.
+1. Good, better, best. "Don't stop till your good is better, and your better is best" Break good code, and make it better.
 2. Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
 3. Avoid innuendo, personal attacks, brutality in review. The code is under a microscope, not the dev. 
 4. Don't be a know it all smarty pants. We are all smart, offer alternative implementations, but assume the author already considered them. 
