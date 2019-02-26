@@ -1,12 +1,9 @@
-# colorincode.github.io
+# vans devs hub
 
 ## Peer Reviews
-### child of
-### child of
-### child of 
 
-### - George Washington
-### - John Adams
+### - The main checklist
+### - Research / Justification
 ### - Thomas Jefferson
 ## Resources
     child of
