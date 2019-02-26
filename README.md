@@ -2,6 +2,10 @@
 
 ## Peer Reviews
 
+### Step by Step Process
+
+        [1] To break good code, and make it better.
+
 ### - The main checklist
 
 - **Explain why the code exists:**  Explain why the code exists. ("It's like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?")
