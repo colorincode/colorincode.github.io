@@ -12,8 +12,8 @@ Examples of statement of intent can include:<br/>
 <code>"main--slider--wrapper" or "$vansredbtn" (e.g. anything that gives the reviewer an idea of what it does)
 </code><br/>
  **See "resources" below to check BEM, OOCSS standards.**
- 3. Follow this main checklist to go through the code. Good tips: Try not to read through more than 500 lines of code per hour, and try to make sure that you thoroughly review the code. A good code review typically takes at least 1 hour. 
-4. For any page inspection, try to think of different "scenarios" this code would be useful, or not useful. (From the perspective of a customer that has never used this page, is the design usable? Is it intuitive? Can it be learned quickly?... From the perspective of a shareholder or your boss, does this code drive/encourage the customer to point of sale?)
+ 3. **Follow this main checklist** to go through the code. Good tips: Try not to read through more than 500 lines of code per hour, and try to make sure that you thoroughly review the code. A good code review typically takes at least 1 hour. 
+4. For any page inspection, **try to think of different "scenarios"** this code would be useful, or not useful. (From the perspective of a customer that has never used this page, is the design usable? Is it intuitive? Can it be learned quickly?... From the perspective of a shareholder or your boss, does this code drive/encourage the customer to point of sale?)
 
 ### - The main checklist
 
