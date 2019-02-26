@@ -4,8 +4,8 @@
 
 ### - The main checklist
 
-- **Preview:**  A live display of the generated HTML as it would render in a browser.
-- **HTML Source:**  The generated HTML before your browser makes it pretty.
+- **Explain why the code exists:**  Explain why the code exists. ("It's like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?")
+- **K.I.S.S**  Is this code as simple as it can be? Identify ways to simplify the code while still solving the problem, if any.
 - **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
 - **Quick Reference:**  A brief run-down of how to format things usin
 
@@ -14,7 +14,12 @@
 
 - **Main Goals**  
         [1] To break good code, and make it better.
-        [2] 
+        [2] Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
+        [3] Don't take it personally. The review is of the code, not you.
+        [4] Don't be a know it all smarty pants. We are all smart, offer alternative implementations, but assume the author already considered them. 
+        [5] Accept that many programming decisions are opinions. Discuss tradeoffs,preferences, reach a resolution quickly.
+        [6] Avoid using terms that are personal or insulting. ("dumb", "stupid"). 
+        
 - **HTML Source:**  The generated HTML before your browser makes it pretty.
 - **Lexer Data:**  What [marked] uses internally, in case you like gory stuff like this.
 - **Quick Reference:**  A brief run-down of how to format things usin
